@@ -8,10 +8,10 @@
   %body{:class => yield(:body_class) }
     - flash.each do |key, value|
       .flash{:class => key}
-        = value
-    %ul.hmenu
-      = render 'devise/menu/registration_items'
-      = render 'devise/menu/login_items'
+        = value 
+    -#%ul.hmenu
+      -#= render 'devise/menu/registration_items'
+      -#= render 'devise/menu/login_items'
     - flash.each do |name, msg|
       = content_tag :div, msg, :id => "flash_#{name}" if msg.is_a?(String)
     #container

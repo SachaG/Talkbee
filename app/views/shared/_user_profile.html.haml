@@ -1,0 +1,12 @@
+.box.col1{ :class => (index + 1) % 4 == 0 ? 'last' : '' }
+  .bio
+    %a.photo{:href => "http://www.crunchbase.com/person/steve-huffman", "title" => "Steve Huffman"}
+      %img{:src => "images/#{user.photo}"}
+      %span.vignette
+    %p User: #{link_to user.name, user}
+    %h4
+      %a{:href => "http://www.crunchbase.com/person/steve-huffman", "title" => "Steve Huffman"}= user.name
+    %h5 Co-founder, Reddit &amp; Hipmunk
+    %p After founding <a href="http://reddit.com">Reddit</a>, I started my new company, <a href="http://hipmunk.com">Hipmunk</a>, an innovative flights and hotels search engine.
+  .book
+    %a.button.book-button{:href => "#", "title" => "Book a session"} Book a session
