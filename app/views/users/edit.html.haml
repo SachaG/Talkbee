@@ -1,6 +1,6 @@
-%h2 Sign up
-= form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
-  = devise_error_messages!
+%h2 edit user pas devise
+= form_for(@user) do |f|
+  = render 'shared/error_messages', :object => f.object
   %p
     = f.label :name
     %br/
@@ -11,6 +11,7 @@
     = f.email_field :email
   %p
     = f.label :password
+    %i (leave blank if you don't want to change it)
     %br/
     = f.password_field :password
   %p
@@ -37,5 +38,6 @@
     = f.label :bio
     %br/
     = f.text_field :bio
-  %p= f.submit "Sign up"
-= render :partial => "devise/shared/links"
+  %p= f.submit "Update"
+%p
+  = link_to "Back", :back

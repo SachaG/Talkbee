@@ -1,2 +1,4 @@
+%h2 show user
 %p
   User: #{@user.name}
+  = link_to "Edit", edit_user_path(@user), :class => "small"

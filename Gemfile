@@ -12,3 +12,5 @@ gem "launchy", ">= 0.4.0", :group => :test
 gem "bson_ext", ">= 1.3.0"
 gem "mongoid", ">= 2.0.1"
 gem "devise", ">= 1.3.3"
+gem "inherited_resources"
+gem "cancan"
