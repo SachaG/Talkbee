@@ -76,7 +76,7 @@
 }
 
 /* line 51, ../sass/forms.scss */
-.form-section p.required label:after {
+.form-section .required label:after {
   display: inline-block;
   content: "*";
   color: red;
