@@ -1,4 +1,13 @@
-%h2 show user
-%p
-  User: #{@user.name}
-  = link_to "Edit", edit_user_path(@user), :class => "small"
+- content_for :body_class do 
+  form-page
+%h2.title.profile-title My Profile
+.content.has-sidebar
+  .profile.main
+    %h4
+      %a{:href => "http://www.crunchbase.com/person/steve-huffman", "title" => "Steve Huffman"}= @user.name
+    %h5
+      = @user.short_bio
+    %p
+      = @user.bio
+  .sidebar
+    = link_to "Edit profile", edit_user_path(@user), :class => "button"

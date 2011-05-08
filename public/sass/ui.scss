@@ -1,0 +1,28 @@
+@import "imports";
+.button{
+	background: #FDEE65;
+	height:30px;
+	display:inline-block;
+	border:1px #585329 solid;
+	color:$button-text !important;
+	text-align:center;
+	line-height:30px;
+	text-decoration:none;
+	font-size:14px;
+	padding:0px 10px;
+	font-weight:500;
+	@include letterpress;
+	@include box-shadow(0px 1px 0px rgba(255,255,255,0.45), inset 0px 1px 0px rgba(255,255,255,0.3));
+	@include border-radius(3px);
+	@include linear-gradient(color-stops(#FDEE65, #EAD945))
+}
+.button:hover{
+	font-weight:500;
+	color:#1f1f1d;
+	@include box-shadow(0px 1px 0px rgba(255,255,255,0.45), inset 0px 1px 0px rgba(255,255,255,0.3),inset 0px 0px 7px rgba(255,255,255,1));
+}
+.button:active{
+	font-weight:500;
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,47 @@
+/* line 2, ../sass/ui.scss */
+.button {
+  background: #FDEE65;
+  height: 30px;
+  display: inline-block;
+  border: 1px #585329 solid;
+  color: #544f2e !important;
+  text-align: center;
+  line-height: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0px 10px;
+  font-weight: 500;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fdee65), color-stop(100%, #ead945));
+  background-image: -webkit-linear-gradient(top, #fdee65, #ead945);
+  background-image: -moz-linear-gradient(top, #fdee65, #ead945);
+  background-image: -o-linear-gradient(top, #fdee65, #ead945);
+  background-image: linear-gradient(top, #fdee65, #ead945);
+}
+
+/* line 19, ../sass/ui.scss */
+.button:hover {
+  font-weight: 500;
+  color: #1f1f1d;
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
+  -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
+}
+
+/* line 24, ../sass/ui.scss */
+.button:active {
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+}

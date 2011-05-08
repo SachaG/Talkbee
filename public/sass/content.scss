@@ -3,13 +3,48 @@ $default-border-radius:3px;
 
 @import "imports";
 
-
+.container{
+	width:930px;
+	margin:0 auto;
+}
+.container .col1{
+	float:left;
+	width:210px;
+	margin:0 30px 30px 0;
+}
+.container .last{
+	margin-right:0;
+}
 .content{
 	background:$content-bg;
 	color:$content-text;
 	@include box-shadow(inset 0px 1px 0px #FFF, 0px 2px 3px rgba(0,0,0,0.35));
 }
 
+.user-menu{
+	color:#fff;
+	overflow:hidden;
+	width:620px;
+	
+}
+.user-menu ul{
+	float:right;
+	overflow:hidden;
+	list-style-type:none;
+	padding:0;
+	margin:30px 0 0 0;
+}
+.user-menu ul li{
+	float:left;
+	margin-left:20px;
+	display:block;
+}
+.user-menu ul li a:link, .user-menu ul li a:visited{
+	color:#fff;
+}
+.user-menu ul li a:hover{
+	color:$hover-color;
+}
 h2.title{
 	margin-bottom:5px;
 	font-weight:200;
@@ -33,9 +68,32 @@ h2.title:before, h2.title:after{
 h2.title:after{
 	left:460px;
 }
+h2.sign-in-title:before, h2.sign-in-title:after{width:230px;}
+h2.sign-in-title:after{left:370px;}
+h2.profile-title:before, h2.profile-title:after{width:210px;}
+h2.profile-title:after{left:390px;}
 #container{
+	padding:0px;
+	background:$content-bg;
+	width:800px;
+	margin:30px auto 30px auto;
 	background:#fbe04a url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATklEQVQYGWP49OmTz////xkIYcIKGBiMQYYwMRAAQBslwUpwWQmUBJsEk8dpItwkmI0wHTAa3SSYOIaJGCahm4jLJAwTcZoEM5GQSTATAfv5sUTiSiNGAAAAAElFTkSuQmCC);
 	padding:5px 10px 10px 10px;
 	@include border-radius(10px);
 	@include box-shadow(inset 0px 1px 0px rgba(255,255,255,0.5), 0px 3px 7px rgba(0,0,0,0.55));
+}
+
+.has-sidebar{
+	background:$content-bg url("../images/sidebar-bg.png") repeat-y top right;
+	overflow:hidden;
+}
+.has-sidebar .main{
+	float:left;
+	width:360px;
+	padding:20px;
+}
+.sidebar{
+	float:right;
+	padding:20px;
+	width:160px;
 }

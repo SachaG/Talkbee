@@ -73,6 +73,9 @@
 	display:block;
 	line-height:26px;
 }
+.form-submit{
+	overflow:hidden;
+}
 .form-submit input, #sign-up .submit{
 	background: #A05EDB; /* old browsers */
 	width:190px;
@@ -85,7 +88,8 @@
 	border:1px #585329 solid;   
 	@include border-radius(3px);               
 	@include box-shadow(inset 0px 1px rgba(255,255,255,0.3), 0px 1px rgba(255,255,255,0.6));
-	@include linear-gradient(color-stops(#A05EDB, #703B9F))
+	@include linear-gradient(color-stops(#A05EDB, #703B9F));
+	float:left;
 }
 .form-submit input:hover, #sign-up .submit:hover{
 	background: #be85f0; /* old browsers */
@@ -94,31 +98,6 @@
 .form-submit input:active, #sign-up .submit:active{
 	background: #592d81; /* old browsers */
 	@include linear-gradient(color-stops(#8c52bf, #592d81))	
-}
-.button{
-	background: #FDEE65;
-	height:30px;
-	display:block;
-	border:1px #585329 solid;
-	color:#544f2e;
-	text-align:center;
-	line-height:30px;
-	text-decoration:none;
-	text-transform:uppercase;
-	font-size:14px;
-	font-weight:500;
-	@include letterpress;
-	@include box-shadow(0px 1px 0px rgba(255,255,255,0.45), inset 0px 1px 0px rgba(255,255,255,0.3));
-	@include border-radius(3px);
-	@include linear-gradient(color-stops(#FDEE65, #EAD945))
-}
-.button:hover{
-	color:#1f1f1d;
-	@include box-shadow(0px 1px 0px rgba(255,255,255,0.45), inset 0px 1px 0px rgba(255,255,255,0.3),inset 0px 0px 7px rgba(255,255,255,1));
-}
-.button:active{
-	position:relative;
-	top:1px;
 }
 #error_explanation{
 	padding:30px;
@@ -129,4 +108,10 @@
 }
 #error_explanation h2{
 	font-size:18px;
+}
+.signup-link{
+	float:right;
+	text-align:right;
+	padding:0px 10px;
+	line-height:40px;
 }

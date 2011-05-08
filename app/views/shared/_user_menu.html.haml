@@ -1,0 +1,7 @@
+.container.user-menu
+  - if user_signed_in?
+    %ul
+      %li
+        = link_to('My account', user_path(current_user))
+      %li
+        = link_to('Logout', destroy_user_session_path)

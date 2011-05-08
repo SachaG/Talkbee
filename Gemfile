@@ -15,3 +15,8 @@ gem "devise", ">= 1.3.3"
 gem "inherited_resources"
 gem "cancan"
 gem 'formtastic', '~> 1.2.3'
+
+group :development do
+  gem 'hpricot'
+  gem 'ruby_parser'
+end

@@ -119,6 +119,11 @@
 }
 
 /* line 76, ../sass/forms.scss */
+.form-submit {
+  overflow: hidden;
+}
+
+/* line 79, ../sass/forms.scss */
 .form-submit input, #sign-up .submit {
   background: #A05EDB;
   /* old browsers */
@@ -145,9 +150,10 @@
   background-image: -moz-linear-gradient(top, #a05edb, #703b9f);
   background-image: -o-linear-gradient(top, #a05edb, #703b9f);
   background-image: linear-gradient(top, #a05edb, #703b9f);
+  float: left;
 }
 
-/* line 90, ../sass/forms.scss */
+/* line 94, ../sass/forms.scss */
 .form-submit input:hover, #sign-up .submit:hover {
   background: #be85f0;
   /* old browsers */
@@ -158,7 +164,7 @@
   background-image: linear-gradient(top, #be85f0, #8f56c1);
 }
 
-/* line 94, ../sass/forms.scss */
+/* line 98, ../sass/forms.scss */
 .form-submit input:active, #sign-up .submit:active {
   background: #592d81;
   /* old browsers */
@@ -169,53 +175,7 @@
   background-image: linear-gradient(top, #8c52bf, #592d81);
 }
 
-/* line 98, ../sass/forms.scss */
-.button {
-  background: #FDEE65;
-  height: 30px;
-  display: block;
-  border: 1px #585329 solid;
-  color: #544f2e;
-  text-align: center;
-  line-height: 30px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
-  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
-  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
-  -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fdee65), color-stop(100%, #ead945));
-  background-image: -webkit-linear-gradient(top, #fdee65, #ead945);
-  background-image: -moz-linear-gradient(top, #fdee65, #ead945);
-  background-image: -o-linear-gradient(top, #fdee65, #ead945);
-  background-image: linear-gradient(top, #fdee65, #ead945);
-}
-
-/* line 115, ../sass/forms.scss */
-.button:hover {
-  color: #1f1f1d;
-  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
-  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
-  -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
-  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.45), inset 0px 1px 0px rgba(255, 255, 255, 0.3), inset 0px 0px 7px white;
-}
-
-/* line 119, ../sass/forms.scss */
-.button:active {
-  position: relative;
-  top: 1px;
-}
-
-/* line 123, ../sass/forms.scss */
+/* line 102, ../sass/forms.scss */
 #error_explanation {
   padding: 30px;
   background: #f5dbd9;
@@ -227,7 +187,15 @@
   text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
 }
 
-/* line 130, ../sass/forms.scss */
+/* line 109, ../sass/forms.scss */
 #error_explanation h2 {
   font-size: 18px;
+}
+
+/* line 112, ../sass/forms.scss */
+.signup-link {
+  float: right;
+  text-align: right;
+  padding: 0px 10px;
+  line-height: 40px;
 }

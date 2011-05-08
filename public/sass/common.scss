@@ -73,8 +73,8 @@ button {  width: auto; overflow: visible; }
 
 body, select, input, textarea { color: #444; }
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-a, a:active, a:visited { color: #544f2e; }
-a:hover { color: #e1cb07; }
+
+
 
 
 
@@ -94,25 +94,7 @@ body{
 	color:#fff;
 	line-height:1.5;
 }
-#container{
-	padding:0px;
-	background:$content-bg;
-	width:800px;
-	margin:30px auto;
-}
 
-.container{
-	width:930px;
-	margin:0 auto;
-}
-.container .col1{
-	float:left;
-	width:210px;
-	margin:0 30px 30px 0;
-}
-.container .last{
-	margin-right:0;
-}
 h1{
 	font-size:40px;
 }
@@ -129,8 +111,14 @@ h5{
 	font-size:13px;	
 }
 
-
-
+a, a:active, a:visited {
+	color: $link-color;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover {
+	color: $hover-color;
+}
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .hidden { display: none; visibility: hidden; }

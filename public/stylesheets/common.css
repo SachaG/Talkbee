@@ -259,16 +259,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 }
 
-/* line 76, ../sass/common.scss */
-a, a:active, a:visited {
-  color: #544f2e;
-}
-
-/* line 77, ../sass/common.scss */
-a:hover {
-  color: #e1cb07;
-}
-
 /**
  * Primary styles
  *
@@ -282,58 +272,44 @@ body {
   line-height: 1.5;
 }
 
-/* line 97, ../sass/common.scss */
-#container {
-  padding: 0px;
-  background: #f6f6e3;
-  width: 800px;
-  margin: 30px auto;
-}
-
-/* line 104, ../sass/common.scss */
-.container {
-  width: 930px;
-  margin: 0 auto;
-}
-
-/* line 108, ../sass/common.scss */
-.container .col1 {
-  float: left;
-  width: 210px;
-  margin: 0 30px 30px 0;
-}
-
-/* line 113, ../sass/common.scss */
-.container .last {
-  margin-right: 0;
-}
-
-/* line 116, ../sass/common.scss */
+/* line 98, ../sass/common.scss */
 h1 {
   font-size: 40px;
 }
 
-/* line 119, ../sass/common.scss */
+/* line 101, ../sass/common.scss */
 h2 {
   font-size: 36px;
 }
 
-/* line 122, ../sass/common.scss */
+/* line 104, ../sass/common.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 125, ../sass/common.scss */
+/* line 107, ../sass/common.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 128, ../sass/common.scss */
+/* line 110, ../sass/common.scss */
 h5 {
   font-size: 13px;
 }
 
-/* line 135, ../sass/common.scss */
+/* line 114, ../sass/common.scss */
+a, a:active, a:visited {
+  color: #8449b7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* line 119, ../sass/common.scss */
+a:hover {
+  color: #e1cb07;
+}
+
+/* line 123, ../sass/common.scss */
 .ir {
   display: block;
   text-indent: -999em;
@@ -343,13 +319,13 @@ h5 {
   direction: ltr;
 }
 
-/* line 136, ../sass/common.scss */
+/* line 124, ../sass/common.scss */
 .hidden {
   display: none;
   visibility: hidden;
 }
 
-/* line 137, ../sass/common.scss */
+/* line 125, ../sass/common.scss */
 .visuallyhidden {
   border: 0;
   clip: rect(0 0 0 0);
@@ -361,7 +337,7 @@ h5 {
   width: 1px;
 }
 
-/* line 139, ../sass/common.scss */
+/* line 127, ../sass/common.scss */
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
   clip: auto;
@@ -372,12 +348,12 @@ h5 {
   width: auto;
 }
 
-/* line 140, ../sass/common.scss */
+/* line 128, ../sass/common.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 141, ../sass/common.scss */
+/* line 129, ../sass/common.scss */
 .clearfix:before, .clearfix:after {
   content: "\0020";
   display: block;
@@ -385,12 +361,12 @@ h5 {
   overflow: hidden;
 }
 
-/* line 142, ../sass/common.scss */
+/* line 130, ../sass/common.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 143, ../sass/common.scss */
+/* line 131, ../sass/common.scss */
 .clearfix {
   zoom: 1;
 }
@@ -399,7 +375,7 @@ h5 {
   /* html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none; } */
 }
 @media print {
-  /* line 161, ../sass/common.scss */
+  /* line 149, ../sass/common.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -408,39 +384,39 @@ h5 {
     -ms-filter: none !important;
   }
 
-  /* line 163, ../sass/common.scss */
+  /* line 151, ../sass/common.scss */
   a, a:visited {
     color: #444 !important;
     text-decoration: underline;
   }
 
-  /* line 164, ../sass/common.scss */
+  /* line 152, ../sass/common.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 165, ../sass/common.scss */
+  /* line 153, ../sass/common.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 166, ../sass/common.scss */
+  /* line 154, ../sass/common.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
-  /* line 167, ../sass/common.scss */
+  /* line 155, ../sass/common.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 168, ../sass/common.scss */
+  /* line 156, ../sass/common.scss */
   thead {
     display: table-header-group;
   }
 
-  /* line 169, ../sass/common.scss */
+  /* line 157, ../sass/common.scss */
   tr, img {
     page-break-inside: avoid;
   }
@@ -449,13 +425,13 @@ h5 {
     margin: 0.5cm;
 }
 
-  /* line 171, ../sass/common.scss */
+  /* line 159, ../sass/common.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 172, ../sass/common.scss */
+  /* line 160, ../sass/common.scss */
   h2, h3 {
     page-break-after: avoid;
   }
