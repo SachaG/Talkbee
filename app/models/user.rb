@@ -10,10 +10,13 @@ class User
   field :twitter
   field :short_bio
   field :bio
+  field :skills
   field :photo
+  field :skype
+  field :viber
   
   validates_presence_of :name
   validates_uniqueness_of :name, :email, :case_sensitive => false
-  attr_accessible :name, :email, :password, :password_confirmation, :remember_me, :site, :twitter, :short_bio, :bio, :photo
+  attr_accessible :name, :email, :password, :password_confirmation, :remember_me, :site, :twitter, :short_bio, :bio, :photo, :skype, :viber
 end
 

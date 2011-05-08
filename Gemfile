@@ -14,3 +14,4 @@ gem "mongoid", ">= 2.0.1"
 gem "devise", ">= 1.3.3"
 gem "inherited_resources"
 gem "cancan"
+gem 'formtastic', '~> 1.2.3'

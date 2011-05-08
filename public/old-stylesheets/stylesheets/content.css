@@ -1,0 +1,15 @@
+/* line 3, ../sass/content.scss */
+.content {
+  background: #f6f6e3;
+  color: #282620;
+}
+
+/* line 8, ../sass/content.scss */
+.content label {
+  display: block;
+}
+
+/* line 11, ../sass/content.scss */
+.form-section p input {
+  display: block;
+}

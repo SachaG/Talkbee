@@ -1,0 +1,41 @@
+/*---- defaults ------ */
+$default-border-radius:3px;
+
+@import "imports";
+
+
+.content{
+	background:$content-bg;
+	color:$content-text;
+	@include box-shadow(inset 0px 1px 0px #FFF, 0px 2px 3px rgba(0,0,0,0.35));
+}
+
+h2.title{
+	margin-bottom:5px;
+	font-weight:200;
+	color:$content-text;
+	@include letterpress(0.6);
+	text-align:center;
+	position:relative;
+	width:100%;
+}
+h2.title:before, h2.title:after{
+	content:" ";
+	display:block;
+	height:2px;
+	width:140px;
+	background:$content-text;
+	@include bottom-highlight(0.4);
+	position:absolute;
+	top:27px;
+	left:0px;
+}
+h2.title:after{
+	left:460px;
+}
+#container{
+	background:#fbe04a url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATklEQVQYGWP49OmTz////xkIYcIKGBiMQYYwMRAAQBslwUpwWQmUBJsEk8dpItwkmI0wHTAa3SSYOIaJGCahm4jLJAwTcZoEM5GQSTATAfv5sUTiSiNGAAAAAElFTkSuQmCC);
+	padding:5px 10px 10px 10px;
+	@include border-radius(10px);
+	@include box-shadow(inset 0px 1px 0px rgba(255,255,255,0.5), 0px 3px 7px rgba(0,0,0,0.55));
+}

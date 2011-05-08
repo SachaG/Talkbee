@@ -9,16 +9,7 @@
     = f.label :email
     %br/
     = f.email_field :email
-  %p
-    = f.label :password
-    %i (leave blank if you don't want to change it)
-    %br/
-    = f.password_field :password
-  %p
-    = f.label :password_confirmation
-    %br/
-    = f.password_field :password_confirmation
-  %p
+  %p 
     = f.label :site
     %br/
     = f.text_field :site
@@ -38,6 +29,16 @@
     = f.label :bio
     %br/
     = f.text_field :bio
+  %hr
+  %p
+    = f.label :password
+    %i (leave blank if you don't want to change it)
+    %br/
+    = f.password_field :password
+  %p
+    = f.label :password_confirmation
+    %br/
+    = f.password_field :password_confirmation
   %p= f.submit "Update"
 %p
   = link_to "Back", :back

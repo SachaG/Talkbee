@@ -1,0 +1,294 @@
+/* line 3, ../sass/teaser.scss */
+.home #container {
+  padding: 30px 0;
+  background: none;
+  width: 100%;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+/* line 12, ../sass/teaser.scss */
+#logo {
+  background: url("../images/talkbee-logo.png");
+  overflow: hidden;
+  text-indent: -900px;
+  width: 240px;
+  height: 80px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* line 21, ../sass/teaser.scss */
+#tagline, #intro {
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  margin: 30px 0;
+}
+
+/* line 25, ../sass/teaser.scss */
+#tagline {
+  text-align: center;
+  font-weight: 200;
+}
+
+/* line 29, ../sass/teaser.scss */
+#intro {
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+/* line 36, ../sass/teaser.scss */
+#intro span {
+  display: inline-block;
+  background: #3c3b37;
+  padding: 0 10px;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 43, ../sass/teaser.scss */
+#intro:before {
+  content: " ";
+  display: block;
+  background: #f6f6e3;
+  height: 2px;
+  top: 12px;
+  position: relative;
+  z-index: 5;
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  -o-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* line 54, ../sass/teaser.scss */
+.people .box {
+  -webkit-border-radius: 0px 3px;
+  -moz-border-radius: 0px 0px / 3px 3px;
+  -o-border-radius: 0px 0px / 3px 3px;
+  -ms-border-radius: 0px 0px / 3px 3px;
+  -khtml-border-radius: 0px 0px / 3px 3px;
+  border-radius: 0px 0px / 3px 3px;
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  -o-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* line 58, ../sass/teaser.scss */
+.bio {
+  height: 227px;
+  padding: 20px 12px 15px 12px;
+  background: #f6f6e3;
+  color: #282620;
+  text-align: center;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.8);
+  -moz-box-shadow: inset 0px 1px 0px white;
+  -webkit-box-shadow: inset 0px 1px 0px white;
+  -o-box-shadow: inset 0px 1px 0px white;
+  box-shadow: inset 0px 1px 0px white;
+}
+
+/* line 67, ../sass/teaser.scss */
+.bio a {
+  font-weight: bold;
+  color: #282620;
+  text-decoration: none;
+}
+
+/* line 72, ../sass/teaser.scss */
+.bio a:hover {
+  color: #e1cb07;
+}
+
+/* line 75, ../sass/teaser.scss */
+.photo {
+  display: block;
+  width: 78px;
+  height: 98px;
+  margin: 0 auto;
+  border: 1px solid #383838;
+  position: relative;
+  margin-bottom: 5px;
+  -moz-box-shadow: 0px 1px 0px white;
+  -webkit-box-shadow: 0px 1px 0px white;
+  -o-box-shadow: 0px 1px 0px white;
+  box-shadow: 0px 1px 0px white;
+}
+
+/* line 85, ../sass/teaser.scss */
+.photo img {
+  width: 78px;
+  height: 98px;
+  z-index: 5;
+  position: relative;
+}
+
+/* line 91, ../sass/teaser.scss */
+.photo .vignette {
+  width: 78px;
+  height: 98px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/vignette.png");
+  z-index: 10;
+}
+
+/* line 101, ../sass/teaser.scss */
+.bio h4 {
+  font-weight: 200;
+}
+
+/* line 104, ../sass/teaser.scss */
+.bio h4 a {
+  text-decoration: none;
+  font-weight: 200;
+}
+
+/* line 108, ../sass/teaser.scss */
+.bio h5 {
+  font-weight: 500;
+}
+
+/* line 111, ../sass/teaser.scss */
+.bio p {
+  font-weight: 200;
+}
+
+/* line 115, ../sass/teaser.scss */
+.book {
+  background: url("../images/box-bottom.png");
+  height: 35px;
+  -webkit-border-radius: 0px 3px;
+  -moz-border-radius: 0px 0px / 3px 3px;
+  -o-border-radius: 0px 0px / 3px 3px;
+  -ms-border-radius: 0px 0px / 3px 3px;
+  -khtml-border-radius: 0px 0px / 3px 3px;
+  border-radius: 0px 0px / 3px 3px;
+  padding: 10px;
+}
+
+/* line 124, ../sass/teaser.scss */
+#sign-up {
+  background: #fbe04a;
+  color: #282620;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  height: 64px;
+  padding: 10px 10px 16px 10px;
+  width: 910px;
+  margin-bottom: 30px;
+  position: relative;
+  -moz-border-radius: 0px 0px 3px 3px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -o-border-radius: 0px 0px 3px 3px;
+  -ms-border-radius: 0px 0px 3px 3px;
+  -khtml-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8), inset 0px 1px 0px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8), inset 0px 1px 0px rgba(255, 255, 255, 0.7);
+  -o-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8), inset 0px 1px 0px rgba(255, 255, 255, 0.7);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8), inset 0px 1px 0px rgba(255, 255, 255, 0.7);
+}
+
+/* line 136, ../sass/teaser.scss */
+#sign-up:after {
+  background: #7a722d;
+  height: 6px;
+  width: 100%;
+  content: " ";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  -moz-border-radius: 0px 0px 3px 3px;
+  -webkit-border-radius: 0px 0px 3px 3px;
+  -o-border-radius: 0px 0px 3px 3px;
+  -ms-border-radius: 0px 0px 3px 3px;
+  -khtml-border-radius: 0px 0px 3px 3px;
+  border-radius: 0px 0px 3px 3px;
+  -moz-box-shadow: inset 0px 1px 0px rgba(255, 248, 182, 0.8);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 248, 182, 0.8);
+  -o-box-shadow: inset 0px 1px 0px rgba(255, 248, 182, 0.8);
+  box-shadow: inset 0px 1px 0px rgba(255, 248, 182, 0.8);
+}
+
+/* line 148, ../sass/teaser.scss */
+#sign-up p {
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* line 153, ../sass/teaser.scss */
+#sign-up .textfield {
+  width: 688px;
+  height: 28px;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 159, ../sass/teaser.scss */
+#sign-up .submit {
+  float: left;
+}
+
+/* line 164, ../sass/teaser.scss */
+#sign-up div.mce_inline_error, #mce-responses {
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  text-indent: 10px;
+  font-weight: bold;
+  background: #f7e863;
+  width: 100%;
+}
+
+/* line 173, ../sass/teaser.scss */
+#sign-up div.mce_inline_error {
+  color: #eb300b;
+}
+
+/* line 176, ../sass/teaser.scss */
+#footer {
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 30px;
+  -moz-box-shadow: inset 0px 1px rgba(0, 0, 0, 0.6), 0px 1px rgba(255, 255, 255, 0.1);
+  -webkit-box-shadow: inset 0px 1px rgba(0, 0, 0, 0.6), 0px 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0px 1px rgba(0, 0, 0, 0.6), 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+/* line 187, ../sass/teaser.scss */
+#footer .links {
+  float: left;
+  padding: 10px 20px;
+}
+
+/* line 191, ../sass/teaser.scss */
+#footer .links a {
+  color: #f7e863;
+}
+
+/* line 194, ../sass/teaser.scss */
+#footer .social {
+  float: right;
+  padding: 15px 10px 5px 10px;
+}
+
+/* line 198, ../sass/teaser.scss */
+#footer .social div {
+  float: left;
+}
+
+/* line 202, ../sass/teaser.scss */
+body.form-page #container {
+  width: 600px;
+}

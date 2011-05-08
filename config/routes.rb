@@ -2,6 +2,7 @@ Talkbee::Application.routes.draw do
   #get \"users\/show\"
 
   root :to => "home#index"
+  match '/index2', :to => 'home#index2'
 
   devise_for :users, :controllers => { :registrations => "registrations" }
   resources :users #, :only => :show

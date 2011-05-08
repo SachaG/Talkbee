@@ -1,0 +1,12 @@
+@mixin bottom-highlight($opacity:0.8) {
+	@include box-shadow(0px 1px 0px rgba(255,255,255,$opacity)); 
+}
+@mixin top-highlight($opacity:0.8) {
+	@include box-shadow(inset 0px 1px 0px rgba(255,255,255,$opacity)); 
+}
+@mixin dark-shadow{
+	@include box-shadow(0px 1px 2px rgba(0,0,0,0.8)); 
+}
+@mixin letterpress($opacity: 0.8){
+	text-shadow:0px 1px 0px rgba(255,255,255,$opacity);
+}

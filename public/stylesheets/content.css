@@ -1,0 +1,58 @@
+/*---- defaults ------ */
+/* line 7, ../sass/content.scss */
+.content {
+  background: #f6f6e3;
+  color: #282620;
+  -moz-box-shadow: inset 0px 1px 0px white, 0px 2px 3px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: inset 0px 1px 0px white, 0px 2px 3px rgba(0, 0, 0, 0.35);
+  -o-box-shadow: inset 0px 1px 0px white, 0px 2px 3px rgba(0, 0, 0, 0.35);
+  box-shadow: inset 0px 1px 0px white, 0px 2px 3px rgba(0, 0, 0, 0.35);
+}
+
+/* line 13, ../sass/content.scss */
+h2.title {
+  margin-bottom: 5px;
+  font-weight: 200;
+  color: #282620;
+  text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.6);
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+/* line 22, ../sass/content.scss */
+h2.title:before, h2.title:after {
+  content: " ";
+  display: block;
+  height: 2px;
+  width: 140px;
+  background: #282620;
+  -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  -o-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+  position: absolute;
+  top: 27px;
+  left: 0px;
+}
+
+/* line 33, ../sass/content.scss */
+h2.title:after {
+  left: 460px;
+}
+
+/* line 36, ../sass/content.scss */
+#container {
+  background: #fbe04a url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAATklEQVQYGWP49OmTz////xkIYcIKGBiMQYYwMRAAQBslwUpwWQmUBJsEk8dpItwkmI0wHTAa3SSYOIaJGCahm4jLJAwTcZoEM5GQSTATAfv5sUTiSiNGAAAAAElFTkSuQmCC);
+  padding: 5px 10px 10px 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 3px 7px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 3px 7px rgba(0, 0, 0, 0.55);
+  -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 3px 7px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5), 0px 3px 7px rgba(0, 0, 0, 0.55);
+}

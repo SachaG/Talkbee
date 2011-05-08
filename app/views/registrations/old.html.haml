@@ -1,62 +1,62 @@
 - content_for :body_class do 
-  form-page
+  submit-profile
 %h2.title Submit Your Profile
 .content
   = form_for(resource, :as => resource_name, :url => registration_path(resource_name)) do |f|
     %p.form-intro Please fill out this form to submit your profile to Talkbee. Only the first section is required, but feel free to provide more information if you can!
     = devise_error_messages!
-    %ul.form-section
+    .form-section
       .form-section-title
         %h3 1. The Basics
         %h4 required information
-      %li.required
+      %p.required
         = f.label :name, 'Your name'
         = f.text_field :name
-      %li.required
-        = f.label :email, 'Your email'
+      %p
+        %span.label
+          = f.label :email, 'Your email'
+          %span.required *
         = f.email_field :email
         %span.info (Not shown on the site)
-      %li.required
-        = f.label :password
+      %p
+        %span.label
+          = f.label :password
+          %span.required *
         = f.password_field :password
       -#%p
         -#= f.label :password_confirmation
         -#%br/
         -#= f.password_field :password_confirmation
-    %ul.form-section
+    .form-section
       .form-section-title
         %h3 2. About You
         %h4 what makes you special
-      %li
+      %p
         = f.label :short_bio, 'A short sentence to describe what you do'
         = f.text_field :short_bio
         %span.info For example: "Co-founder of MyCompany"
-      %li
+      %p
         = f.label :bio, 'Biography'
         = f.text_area :bio
-      %li
-        = f.label :skills, 'Skills'
-        = f.text_field :skills
-        %span.info For example: "Rails, Wordpress, User Interface Design" 
-      %li
+      %p
         = f.label :photo
         = f.text_field :photo
-    %ul.form-section
+    .form-section
       .form-section-title
         %h3 3. Links &amp; Stuff
         %h4 where to find you
-      %li
+      %p
         = f.label :site
         = f.text_field :site
-      %li
+      %p
         = f.label :twitter, 'Twitter username'
         = f.text_field :twitter
         %span.info Without the "@"
-      %li
+      %p
         = f.label :skype, 'Skype username'
         = f.text_field :skype
         %span.info (Not shown on the site)
-      %li
+      %p
         = f.label :viber, 'Viber username'
         = f.text_field :viber
         %span.info (Not shown on the site)

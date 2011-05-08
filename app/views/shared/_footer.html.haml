@@ -1,0 +1,14 @@
+%footer#footer.container.clearfix
+  .links
+    %a{:href => "http://www.twitter.com/talkbee"} Follow us on Twitter
+    |
+    %a{:href => "http://talkbee.posterous.com/"} Blog
+    |
+    %a{:href => "http://sachagreif.wufoo.com/forms/contact-talkbee/"} Contact
+  .social.clearfix
+    .fb
+      %script{:src => "http://connect.facebook.net/en_US/all.js#xfbml=1"}
+      %fb:like{:font => "", :href => "http://kandan.me", :layout => "button_count", :send => "false", :show_faces => "false", :width => "10"}
+    .tw
+      %a.twitter-share-button{"data-count" => "horizontal", "data-via" => "talkbee", :href => "http://twitter.com/share"} Tweet
+      %script{:src => "http://platform.twitter.com/widgets.js", :type => "text/javascript"}

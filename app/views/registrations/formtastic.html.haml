@@ -1,0 +1,13 @@
+- content_for :body_class do 
+  submit-profile
+%h2.title Submit Your Profile
+.content
+  %p.form-intro Please fill out this form to submit your profile to Talkbee. Only the first section is required, but feel free to provide more information if you can!
+  = semantic_form_for resource do |form|
+    = devise_error_messages!
+    = form.inputs :name => "Advanced Options" do
+      = form.input :name, :label => "Your Name", :hint => "Created automatically if left blank", :required => true 
+      = form.input :email
+      = form.input :password
+    = form.buttons do
+      = form.commit_button
