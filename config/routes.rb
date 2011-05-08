@@ -3,7 +3,8 @@ Talkbee::Application.routes.draw do
 
   root :to => "home#index"
   match '/index2', :to => 'home#index2'
-
+  match '/thanks', :to => 'home#thanks'
+  
   devise_for :users, :controllers => { :registrations => "registrations" }
   resources :users #, :only => :show
 
