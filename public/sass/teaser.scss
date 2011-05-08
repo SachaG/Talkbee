@@ -111,16 +111,15 @@
 .bio p{
 	font-weight:200;
 }
-
 .book{
 	background:url("../images/box-bottom.png");
 	height:35px;
 	@include border-radius(0px 0px, 3px 3px);
-
 	padding:10px;
 }
-
-
+.book .button{
+	display:block;
+}
 #sign-up{
 	background:#fbe04a;
 	color:#282620;

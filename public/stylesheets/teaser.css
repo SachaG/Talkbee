@@ -160,7 +160,7 @@
   font-weight: 200;
 }
 
-/* line 115, ../sass/teaser.scss */
+/* line 114, ../sass/teaser.scss */
 .book {
   background: url("../images/box-bottom.png");
   height: 35px;
@@ -173,7 +173,12 @@
   padding: 10px;
 }
 
-/* line 124, ../sass/teaser.scss */
+/* line 120, ../sass/teaser.scss */
+.book .button {
+  display: block;
+}
+
+/* line 123, ../sass/teaser.scss */
 #sign-up {
   background: #fbe04a;
   color: #282620;
@@ -195,7 +200,7 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8), inset 0px 1px 0px rgba(255, 255, 255, 0.7);
 }
 
-/* line 136, ../sass/teaser.scss */
+/* line 135, ../sass/teaser.scss */
 #sign-up:after {
   background: #7a722d;
   height: 6px;
@@ -217,14 +222,14 @@
   box-shadow: inset 0px 1px 0px rgba(255, 248, 182, 0.8);
 }
 
-/* line 148, ../sass/teaser.scss */
+/* line 147, ../sass/teaser.scss */
 #sign-up p {
   font-size: 13px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-/* line 153, ../sass/teaser.scss */
+/* line 152, ../sass/teaser.scss */
 #sign-up .textfield {
   width: 688px;
   height: 28px;
@@ -232,12 +237,12 @@
   margin-right: 10px;
 }
 
-/* line 159, ../sass/teaser.scss */
+/* line 158, ../sass/teaser.scss */
 #sign-up .submit {
   float: left;
 }
 
-/* line 164, ../sass/teaser.scss */
+/* line 163, ../sass/teaser.scss */
 #sign-up div.mce_inline_error, #mce-responses {
   position: absolute;
   top: 10px;
@@ -248,12 +253,12 @@
   width: 100%;
 }
 
-/* line 173, ../sass/teaser.scss */
+/* line 172, ../sass/teaser.scss */
 #sign-up div.mce_inline_error {
   color: #eb300b;
 }
 
-/* line 176, ../sass/teaser.scss */
+/* line 175, ../sass/teaser.scss */
 #footer {
   background: rgba(0, 0, 0, 0.2);
   -webkit-border-radius: 3px;
@@ -266,29 +271,29 @@
   box-shadow: inset 0px 1px rgba(0, 0, 0, 0.6), 0px 1px rgba(255, 255, 255, 0.1);
 }
 
-/* line 187, ../sass/teaser.scss */
+/* line 186, ../sass/teaser.scss */
 #footer .links {
   float: left;
   padding: 10px 20px;
 }
 
-/* line 191, ../sass/teaser.scss */
+/* line 190, ../sass/teaser.scss */
 #footer .links a {
   color: #f7e863;
 }
 
-/* line 194, ../sass/teaser.scss */
+/* line 193, ../sass/teaser.scss */
 #footer .social {
   float: right;
   padding: 15px 10px 5px 10px;
 }
 
-/* line 198, ../sass/teaser.scss */
+/* line 197, ../sass/teaser.scss */
 #footer .social div {
   float: left;
 }
 
-/* line 202, ../sass/teaser.scss */
+/* line 201, ../sass/teaser.scss */
 body.form-page #container {
   width: 600px;
 }
