@@ -85,6 +85,13 @@ GEM
       haml (~> 3.0)
       railties (~> 3.0)
     has_scope (0.5.0)
+    heroku (2.0.5)
+      launchy (>= 0.3.2)
+      rest-client (~> 1.6.1)
+      term-ansicolor (~> 1.0.5)
+    heroku_san (1.2.0)
+      heroku
+      rails (>= 2)
     hpricot (0.8.4)
     i18n (0.5.0)
     inherited_resources (1.2.2)
@@ -134,6 +141,8 @@ GEM
       thor (~> 0.14.4)
     rake (0.8.7)
     responders (0.6.2)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
     rspec (2.5.0)
       rspec-core (~> 2.5.0)
       rspec-expectations (~> 2.5.0)
@@ -181,6 +190,7 @@ DEPENDENCIES
   formtastic (~> 1.2.3)
   haml (>= 3.0.25)
   haml-rails (>= 0.3.4)
+  heroku_san
   hpricot
   inherited_resources
   launchy (>= 0.4.0)

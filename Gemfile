@@ -19,4 +19,5 @@ gem 'formtastic', '~> 1.2.3'
 group :development do
   gem 'hpricot'
   gem 'ruby_parser'
+  gem 'heroku_san'
 end
